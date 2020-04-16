@@ -6,8 +6,9 @@
             $pagina = str_replace(".php", "", $archivo);
             if($pagina == 'index'){
               echo '<script src="../../../CMS_BLOG/src/js/header.js"></script>';
-            } 
+            } else if($pagina == 'blog'){
+              echo '<script src="../../../CMS_BLOG/src/js/blog.js"></script>';
+            }
     ?>
 </body>
-
 </html>

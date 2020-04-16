@@ -18,6 +18,9 @@
             if($pagina == 'index'){
               echo ' <link rel="stylesheet" href=".../../../CMS_BLOG/src/css/header.css">';
             } 
+           else  if($pagina == 'blog'){
+              echo ' <link rel="stylesheet" href=".../../../CMS_BLOG/src/css/blog.css">';
+            } 
     ?>
 </head>
 <body>
