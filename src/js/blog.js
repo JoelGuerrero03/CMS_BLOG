@@ -25,6 +25,7 @@ function blogElement() {
     let parrafo1 = document.createElement('p');
     parrafo1.innerHTML = "La Inteligencia Artificial (IA) es la combinación de algoritmos planteados con el propósito de crear máquinas que presenten las mismas capacidades que el ser humano. Una tecnología que todavía nos resulta lejana y misteriosa, pero que desde hace unos años está presente en nuestro día a día a todas horas.";
     articulo1.appendChild(parrafo1);
+
     //articulo 2
     let articulo2 = document.createElement('div');
     articulo2.classList.add('col-6');
@@ -102,29 +103,12 @@ function blogElement() {
     parrafoFoter.innerHTML = 'Inovix @logotipo 2020';
     footer.appendChild(parrafoFoter);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     document.body.appendChild(contenedor);
     document.body.appendChild(footer);
     document.querySelector('a').setAttribute('href', '../../../CMS_BLOG/index.php');
 
-
-
-
-
-
-
+    imagen1.onclick = () => {
+        window.location = '../../../CMS_BLOG/pagina1Blog.php';
+    }
 
 }
