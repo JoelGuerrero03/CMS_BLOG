@@ -21,6 +21,12 @@
            else  if($pagina == 'blog'){
               echo ' <link rel="stylesheet" href=".../../../CMS_BLOG/src/css/blog.css">';
             } 
+            else  if($pagina == 'pagina1Blog'){
+              echo ' <link rel="stylesheet" href=".../../../CMS_BLOG/src/css/pagina1Blog.css">';
+            } 
+
+
+            
     ?>
 </head>
 <body>

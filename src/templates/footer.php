@@ -8,7 +8,9 @@
               echo '<script src="../../../CMS_BLOG/src/js/header.js"></script>';
             } else if($pagina == 'blog'){
               echo '<script src="../../../CMS_BLOG/src/js/blog.js"></script>';
-            }
+            } else if($pagina == 'pagina1Blog'){
+            echo '<script src="../../../CMS_BLOG/src/js/pagina1Blog.js"></script>';
+          }  
     ?>
 </body>
 </html>
